@@ -20,7 +20,7 @@ Extract and transcribe Apple Voice Memos into clean, organized markdown files wi
 ### 1. Clone and configure
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/voice-memos-to-markdown.git
+git clone https://github.com/cdeistopened/voice-memos-to-markdown.git
 cd voice-memos-to-markdown
 cp .env.example .env
 ```
@@ -125,7 +125,7 @@ Some very short recordings (<5 seconds) or background noise will be skipped auto
 
 ## Credits
 
-This project was inspired by [a forensic deep-dive into Apple Voice Memos storage](https://example.com) that documented the `.qta` format and embedded transcript structure.
+This project was inspired by Drew Bredvick's excellent [deep-dive into Apple Voice Memos storage](https://drew.tech/posts/ios-memos-obsidian-claude) that documented the `.qta` format and embedded transcript structure.
 
 ## License
 
